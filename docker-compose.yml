@@ -6,14 +6,13 @@ services:
             - JEKYLL_ENV=docker
 
         # No incremental change - update gem and run local
-        # command: >
-        #     /bin/bash -c "bundle update
-        #     && bundle install
-        #     && bundle exec jekyll serve --host 0.0.0.0 --config _config.yml --watch "
+        #command: >
+        #    /bin/bash -c "bundle update
+        #    && bundle install
+        #    && bundle exec jekyll serve --host 0.0.0.0 --config _config.yml --watch "
 
         # No incremental change - don't update gem and run local
-        command: >
-            /bin/bash -c "bundle exec jekyll serve --host 0.0.0.0 --config --watch"
+        command: "jekyll serve"
 
 
         volumes:
