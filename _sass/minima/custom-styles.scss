@@ -13,3 +13,10 @@
 .resume-education div{
 	column-count: 2	
 }
+
+@media screen and (max-width: 600 px){
+
+	.resume-experience .position-date {
+		width: 100%;
+	}
+}
