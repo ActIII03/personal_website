@@ -10,13 +10,17 @@
 	text-align:center;	
 }
 
-.resume-education div{
-	column-count: 2	
+.resume-experience .description {
+	float: left;
+	width: 33.33%;
 }
 
-@media screen and (max-width: 600 px){
+.resume-experience .job-position:after{
+	 content: "";
+	 display: table;
+	 clear: both;
+}
 
-	.resume-experience .position-date {
-		width: 100%;
-	}
+.resume-experience #company{
+	text-decoration: underline;
 }
