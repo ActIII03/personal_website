@@ -12,15 +12,14 @@
 
 .resume-experience .description {
 	float: left;
-	width: 33.33%;
-}
-
-.resume-experience .job-position:after{
-	 content: "";
-	 display: table;
-	 clear: both;
+	width: 50%;
 }
 
 .resume-experience #company{
 	text-decoration: underline;
+}
+
+#cover-page{
+	width: 740px;
+	height: 540px;        
 }
