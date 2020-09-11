@@ -1,4 +1,4 @@
-# https://actiii03.github.io/personal_website/robots.txt
+# https://touche-hub/personal_website/robots.txt
 User-agent: *
 Disallow:
 
