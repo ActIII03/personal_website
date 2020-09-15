@@ -4,8 +4,10 @@ author:
   email: a.touche03@gmail.com
 description: > 
     Resume CV & Portfolio
+google-analytics: "UA-177446614-1"
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
