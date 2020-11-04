@@ -56,9 +56,9 @@ Website serves as a Resume CV/Portfolio for employers.
 
 ### Locally
 
-1. git clone https://github.com/ActIII03/personal_website
-2. $ sudo docker-compose build -t dev-website .
-3. $ sudo docker-compose up
+1. 'git clone https://github.com/ActIII03/personal_website'
+2. '$ sudo docker-compose build -t dev-website .''
+3. '$ sudo docker-compose up'
 4. Copy url to browser and there you go! You should be able to view my website.
 
 ## Built with
