@@ -4,7 +4,7 @@ Website serves as a Resume CV/Portfolio for employers.
 
 ## Theme
 
-[Bolierplate on https://github.com/jekyll/minima
+Bolierplate on https://github.com/jekyll/minima
 
 ## Features
 
