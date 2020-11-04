@@ -49,26 +49,17 @@ Website serves as a Resume CV/Portfolio for employers.
 
 ## Prerequisites
 
-### Online
-
-1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
-2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
-3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
-4. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs) and pass in your:
-  
-  - Formik form endpoint
-  - Google recaptcha public key
-  - Github token
-
-To Env variables section.
+1. docker
+2. docker-compose
+3. Anytyppe of terminal application
+3. An internet browser (I used Firefox)
 
 ### Locally
 
-1. Need: (i) docker (ii) docker-compose (iii) git
-2. git clone https://github.com/ActIII03/personal_website
-3. $ sudo docker-compose build -t dev-website .
-4. $ sudo docker-compose up
-5. Copy url to browser and there you go!
+1. git clone https://github.com/ActIII03/personal_website
+2. $ sudo docker-compose build -t dev-website .
+3. $ sudo docker-compose up
+4. Copy url to browser and there you go! You should be able to view my website.
 
 ## Built with
 
