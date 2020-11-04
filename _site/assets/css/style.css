@@ -329,8 +329,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .resume-experience #company { text-decoration: underline; }
 
-#photo-outer { width: 100%; height: 505px; overflow: hidden; }
+.profile-pic { max-width: 100%; height: 100%; border-radius: 50%; position: relative; overflow: hidden; margin: auto; }
 
-#photo-outer #photo-inner { width: 740px; margin-right: 25px; height: 534px; }
+.profile-pic img { width: 100%; max-width: 400px; height: auto; border-radius: 50%; }
+
+photo-outer { width: 100%; max-width: 400px; height: auto; border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
