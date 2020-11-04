@@ -323,7 +323,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .cover-page { text-align: center; }
 
-.resume-header { text-align: center; }
+.resume-header { text-align: center; margin: auto; padding: 5px; }
+
+.resume-education { margin: auto; width: 50%; padding: 10px; }
+
+h2#section-title { text-align: center; }
 
 .resume-experience .description { float: left; width: 50%; }
 
@@ -333,6 +337,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .profile-pic img { width: 100%; max-width: 400px; height: auto; border-radius: 50%; }
 
-photo-outer { width: 100%; max-width: 400px; height: auto; border-radius: 50%; }
+.photo-outer { width: 100%; height: auto; border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
