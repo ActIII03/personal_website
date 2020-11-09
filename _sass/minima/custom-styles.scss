@@ -3,7 +3,6 @@
 
 .cover-page{
     text-align:center;
-
 }
 
 .resume-header{
@@ -14,17 +13,23 @@
 
 .resume-education {
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    text-align: left; 
 }
 
  h2#section-title{
   text-align: center;
 }
 
-.resume-experience .description {
-	float: left;
-	width: 50%;
+p#quote{
+  text-align: center;
+}
+
+.resume-experience {
+  margin: auto;
+}
+
+.job-position{
+  padding-bottom: 5px;
 }
 
 .resume-experience #company{
