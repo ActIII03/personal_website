@@ -1,4 +1,0 @@
-# https://touche-hub/personal_website/robots.txt
-User-agent: *
-Disallow:
-

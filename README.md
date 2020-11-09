@@ -24,29 +24,15 @@ Bolierplate on https://github.com/jekyll/minima
 
 ```bash
 .
-├── 404.html
-├── about.md   				
-├── assets
-├── CNAME					# Custom domain
-├── CODE_OF_CONDUCT.md
-├── _config.yml
-├── docker-compose.yml
-├── Gemfile					# Ruby on Rail preprocessors
-├── Gemfile.lock
-├── _includes
-├── index.md
-├── _layouts				
-│   ├── about.html
-│   ├── default.html
-│   ├── home.html
-│   ├── page.html
-│   └── post.html
-├── LICENSE.txt				# MIT licence
-├── minima.gemspec
-├── README.md 				# The file being currently on github
-├── robots.txt				# Enforce no webscrappers
-├── _sass
-├── _site
+├── assets		# Contains static assets (i.e. images and custom-css)
+│   ├── css
+│   └── img
+├── _includes		# There are partials used by _layout when using liquid tags.
+├── _layouts		# Where liquid tags are declared to be used, allowing html modularity/encapsulation 
+├── _sass		# These are sass partials 
+│   └── minima		# Jekyll bolierplate
+│       └── skins
+└── script		
 ```
 
 ## Prerequisites
