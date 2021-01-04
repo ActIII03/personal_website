@@ -45,9 +45,8 @@ Bolierplate on https://github.com/jekyll/minima
 ### Locally
 
 1. <code>git clone https://github.com/ActIII03/personal_website</code>
-2. <code>$ sudo docker-compose build -t dev-website .</code>
-3. <code>$ sudo docker-compose up</code>
-4. Copy url to browser and there you go! You should be able to view my website.
+2. <code>$ sudo docker-compose up</code>
+3. Finally, opening any web browser and enter <https://local:4000>
 
 ## Built with
 
