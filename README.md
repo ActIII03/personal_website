@@ -46,7 +46,7 @@ Bolierplate on https://github.com/jekyll/minima
 
 1. <code>git clone https://github.com/ActIII03/personal_website</code>
 2. <code>$ sudo docker-compose up</code>
-3. Finally, opening any web browser and enter <https://local:4000>
+3. Finally, opening any web browser and enter <https://localhost:4000>
 
 ## Built with
 
