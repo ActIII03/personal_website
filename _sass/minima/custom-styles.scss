@@ -62,24 +62,37 @@ p#quote{
 h4#project-item{
   text-decoration: underline;
 }
-.card-outer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+.card-parent {
+  padding: 0px, auto;
 }
 
-.card {
-  margin: auto;
+.card-left {
+  float: left;
   width: 40%;
+  height: auto;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
  }
+
+.card-right {
+  float: right;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
 
 .card:hover {
   box-shadow: 0 30px 16px 5px rgba(0,0,0,0.2);
 }
 
 .card-container {
+  width: auto;
+  height: auto;
+  bottom: 0;
   background-color: #7b7b7b;
   color:black;
 }
